@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/stylesprint.css" media="print">
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<title>Follow | mykl.music</title>
+
+<!-- 
+Script to redirect to mobile pages when mobile device is detected.
+Original code extrapolated from:
+http://stackoverflow.com/questions/12606245/detect-if-browser-is-running-on-an-android-or-ios-device
+http://www.htmlgoodies.com/beyond/webmaster/toolbox/article.php/3888106/How-Can-I-Detect-the-iPhone~~iPads-User-Agent.htm
+Modified by Michael Henning.
+-->
+	<script type="text/javascript">
+		if((navigator.userAgent.match(/iPhone|iPad|iPod/i)) || 
+ 		(navigator.userAgent.match(/Android/i)) ||
+ 		(navigator.userAgent.match(/BlackBerry/i)) ||
+ 		(navigator.userAgent.match(/IEMobile/i))) {
+   			window.location = "../mobilepages/follow-mobile.html";
+			}
+	</script>
+
+</head>
+
+<body id="page">
+	<div id="wrapper">
+		<div id="header-background"></div>
+		<div id="header">
+			michael henning
+		</div>
+		<div id="leftcolumn">
+			<ul id="nav">
+				<li><a href="../lab8.html">Home&nbsp;</a></li>
+				<li><a href="music.html">Music&nbsp;</a></li>
+				<li><a href="videos.html">Videos&nbsp;</a></li>
+				<li id="current-page"><a href="follow.html">[Follow]</a></li>
+				<li><a href="contact.html">Contact&nbsp;</a></li>
+			</ul>
+		</div>
+		<div id="rightcolumn">
+			<br>
+			<p>Check out more of Michael's music and media postings at these sites!</p>
+			<br>
+			<div id="followlinks">
+				<h1><a href="http://myklhenn.bandcamp.com">Bandcamp</a></h1>
+				<h1><a href="http://soundcloud.com/myklhenn">SoundCloud</a></h1>
+				<h1><a href="http://www.youtube.com/user/mykl951">YouTube</a></h1>
+				<h1><a href="fake-link.html">Facebook</a></h1>
+				<h1><a href="http://www.twitter.com/myklhenn">Twitter</a></h1>
+			</div>
+			<br>
+			<br>
+			<!-- copyright, footer -->
+			<p style="font-family: ubuntu-mono; font-size: 80%;">&copy; 03.03.2014 michael henning (<span style="text-decoration: underline;">mykl.music</span>). created for WWU's CS102 class.</p>
+		</div>
+	</div>
+</body>
+
+</html>

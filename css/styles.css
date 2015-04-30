@@ -1,0 +1,172 @@
+/* custom fonts defined */
+
+@font-face {
+	font-family: ubuntu-mono;
+	src: url(../fonts/UbuntuMono-R.ttf);
+	}
+
+@font-face {
+	font-family: ubuntu;
+	src: url(../fonts/Ubuntu-R.ttf);
+	}
+
+
+/* begin defining of id's */
+
+#page {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0px 115px;
+	top: 200px;
+	}
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+	min-width: 980px;
+	color: white;
+	}
+
+#header-background {
+	float: left;
+	width: 100%;
+	height: 115px;
+	background-color: black;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	}
+	
+#header {
+	font-size: 60px;
+	font-family: papyrus;
+	color: orange;
+	padding: 20px 20px 10px 10px;
+	height: 60px;
+	position: fixed;
+	z-index: 2;
+	background-color: black;
+	}
+
+
+/* leftcolumn and site navigation-related id's */
+	
+#leftcolumn {
+	float: left;
+	width: 100px;
+	position: fixed;
+	top: 100px;
+	z-index: 1;
+	}
+
+#nav {
+	width: 125px;
+	list-style-type: none;
+	font-family: ubuntu-mono;
+	font-size: 27px;
+	padding: 10px 10px 10px 10px;
+	text-align: right;
+	}
+
+#nav a {
+	text-decoration: none;
+	color: white;
+	}
+	
+#nav a:visited {
+	color: white;
+	}
+
+#nav a:hover {
+	color: orange;
+	}
+
+	
+/* rightcolumn and related id's */
+	
+#rightcolumn {
+	float: right;
+	width: 700px;
+	font-family: ubuntu;
+	position: relative;
+	top: 100px;
+	background-repeat: no-repeat;
+	text-shadow: 2px 0px 3px black;
+	}
+
+#rightcolumn-span {
+	font-weight: bold; 
+	color: orange;
+	}
+	
+#rightcolumn-contacts {
+	float: left;
+	width: 700px;
+	font-family: ubuntu;
+	position: relative;
+	top: 100px;
+	left: 310px;
+	text-shadow: 2px 0px 3px black;
+	}	
+
+#rightcolumn-contacts a {
+	text-decoration: none;
+	color: orange;
+	}
+	
+#rightcolumn-contacts a:hover {
+	text-decoration: underline;
+	}
+	
+#rightcolumn-contacts a:visited {
+	color: orange;
+	}
+
+#rightcolumn a {
+	color: orange;
+	}
+	
+#rightcolumn h1 a {
+	color: white;
+	text-decoration: none;
+	}
+
+#rightcolumn h1 a:hover {
+	color: orange;
+	}
+
+
+/* table on contacts page */
+
+th {
+	text-align: right;
+	}
+
+td {
+	padding: 0px 0px 0px 5px;
+	}
+
+
+#current-page {
+	font-weight: bold;
+	}
+
+#followlinks a {
+	text-decoration: none;
+	}
+	
+#followlinks a:hover {
+	color: orange;
+	}
+	
+#footnotes {
+	font-family: ubuntu-mono
+	}
+	
+#homepage-image {
+	text-align: center;
+	border: none;
+	}
+	

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/stylesprint.css" media="print">
+	<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	<title>Videos | mykl.music</title>
+
+<!-- 
+Script to redirect to mobile pages when mobile device is detected.
+Original code extrapolated from:
+http://stackoverflow.com/questions/12606245/detect-if-browser-is-running-on-an-android-or-ios-device
+http://www.htmlgoodies.com/beyond/webmaster/toolbox/article.php/3888106/How-Can-I-Detect-the-iPhone~~iPads-User-Agent.htm
+Modified by Michael Henning.
+-->
+	<script type="text/javascript">
+		if((navigator.userAgent.match(/iPhone|iPad|iPod/i)) || 
+ 		(navigator.userAgent.match(/Android/i)) ||
+ 		(navigator.userAgent.match(/BlackBerry/i)) ||
+ 		(navigator.userAgent.match(/IEMobile/i))) {
+   			window.location = "../mobilepages/videos-mobile.html";
+			}
+	</script>
+
+</head>
+
+<body id="page">
+	<div id="wrapper">
+		<div id="header-background"></div>
+		<div id="header">
+			michael henning
+		</div>
+		<div id="leftcolumn">
+			<ul id="nav">
+				<li><a href="../lab8.html">Home&nbsp;</a></li>
+				<li><a href="music.html">Music&nbsp;</a></li>
+				<li id="current-page"><a href="videos.html">[Videos]</a></li>
+				<li><a href="follow.html">Follow&nbsp;</a></li>
+				<li><a href="contact.html">Contact&nbsp;</a></li>
+			</ul>
+		</div>
+		<div id="rightcolumn">
+			<br>
+			<p>Here you will find a collection of videos (from <a href="http://www.youtube.com/user/mykl951/videos?view=0">YouTube</a>) of Michael's recorded performances with other artists, namely his band Dysfunkshun. Feel free to watch whatever you'd like!</p>
+			<br>
+			<!-- Dysfunkshun - Skyline [Live at the Kibbie Dome] -->
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/GADimQ1R_MU?rel=0" frameborder="0" allowfullscreen></iframe><br>
+			<br>
+			<!-- Dysfunkshun - Skyline / Why Stop Now [Lionel Hampton 2013]  -->
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/qeIzg0gAXVQ?rel=0" frameborder="0" allowfullscreen></iframe><br>
+			<br>
+			<!-- Combo Performance at JHS Sweetheart Soiree 2013 -->
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/videoseries?list=PLtQBjBb9jICyGGbk9ORqvwbiujVXKNLsB" frameborder="0" allowfullscreen></iframe><br>
+			<br>
+			<!-- Independent Project - Music Video -->
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/-6D5Hx4jotE?rel=0" frameborder="0" allowfullscreen></iframe><br>
+			<br>
+			<!-- [JHS Talent Show 2012] Michael Henning - Improvised Piano -->
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/fglADSCWGNg?rel=0" frameborder="0" allowfullscreen></iframe><br>
+			<br>
+			<!-- The Michael Henning Combo - Skyline; Bad Weather --> 
+			<iframe width="560" height="315" src="http://www.youtube.com/embed/f0i-dJPL4Cs?rel=0" frameborder="0" allowfullscreen></iframe><br>
+			<br>
+			<br>
+			<!-- copyright, footer -->
+			<p style="font-family: ubuntu-mono; font-size: 80%;">&copy; 03.03.2014 michael henning (<span style="text-decoration: underline;">mykl.music</span>). created for WWU's CS102 class.</p>
+		</div>
+	</div>
+</body>
+
+</html>

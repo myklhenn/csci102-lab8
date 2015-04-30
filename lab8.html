@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/stylesprint.css" media="print">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+	<title>Home | mykl.music</title>
+	
+<!-- 
+Script to redirect to mobile pages when mobile device is detected.
+Original code extrapolated from:
+http://stackoverflow.com/questions/12606245/detect-if-browser-is-running-on-an-android-or-ios-device
+http://www.htmlgoodies.com/beyond/webmaster/toolbox/article.php/3888106/How-Can-I-Detect-the-iPhone~~iPads-User-Agent.htm
+Modified by Michael Henning.
+-->
+	<script type="text/javascript">
+		if((navigator.userAgent.match(/iPhone|iPad|iPod/i)) || 
+ 		(navigator.userAgent.match(/Android/i)) ||
+ 		(navigator.userAgent.match(/BlackBerry/i)) ||
+ 		(navigator.userAgent.match(/IEMobile/i))) {
+   			window.location = "lab8mobile.html";
+			}
+	</script>
+
+</head>
+
+<body id="page">
+	<div id="wrapper">
+		<div id="header-background"></div>
+		<div id="header">
+			michael henning
+		</div>
+		<div id="leftcolumn">
+			<ul id="nav">
+				<li id="current-page"><a href="lab8.html">[Home]</a></li>
+				<li><a href="pages/music.html">Music&nbsp;</a></li>
+				<li><a href="pages/videos.html">Videos&nbsp;</a></li>
+				<li><a href="pages/follow.html">Follow&nbsp;</a></li>
+				<li><a href="pages/contact.html">Contact&nbsp;</a></li>
+			</ul>
+		</div>
+		<div id="rightcolumn">
+			<h1>Welcome!</h1>
+			<p>Welcome to the website dedicated to collecting musical recordings and performances of <span id="rightcolumn-span">Michael Henning</span>. Follow the links to the right to find the other sections of this site, containing music, videos, links to Michael's music hosting and social media sites, his contact information, and more!</p>
+			<br>
+			<div id="homepage-image"><a href="images/homepage-image.jpg"><img src="images/homepage-image-small.jpg" alt="Michael playing on a keyboard."></a></div>
+			<br>
+			<hr>
+			<div id="footnotes">
+				<p style="font-weight: bold">[Notes for CS102 Lab Instructor]</p>
+				<p>The color scheme was chosen for this page because the white text stands out nicely against the black and grey background 
+				for optimal readability. The orange color for some titles and web links also stands out well, and provides an accent 
+				color to compliment the white text. The fonts were chosen to match/go well with each other, as most of them were 
+				selected from the font set that is used in the open source linux distribution Ubuntu.</p>
+				<p>The target audience for this site is web users who are interested in music--especially the styles of jazz, funk, 
+				new age, etc. that are infused into my musical style--regardless of age, but geared mostly toward teens and older. As such,
+				the colors and fonts on this page were chosen to appeal to this target audience of a rather wide-spread age group.</p>
+				<p>This web site uses a shallow hierarchical organization, and the small number of pages to link to enables this to be an 
+				effective method of organization. It does not use linear organization because the pages are not viewed in sequential order, 
+				and it does not use random organization because the pages are not viewed and linked to randomly.</p>
+				<p>This web site uses the "jello" design technique, as the page content is relatively centered in the window and adjusts to 
+				stay in the center based on the window's size. It does not use the "ice" design technique because it is not as rigid and 
+				fixed to the left side of the window, as would be the case if this technique were used, and it does not use the "liquid" 
+				design technique because the page content does not completely fill the browser regardless of the window's size.</p>
+			</div>
+			<br>
+			<!-- copyright, footer -->
+			<p style="font-family: ubuntu-mono; font-size: 80%;">&copy; 03.03.2014 michael henning (<span style="text-decoration: underline;">mykl.music</span>). created for WWU's CS102 class.</p>
+		</div>
+	</div>
+</body>
+
+</html>
